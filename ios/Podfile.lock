@@ -1,0 +1,35 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - TensorFlowLite (1.12.0)
+  - tflite (1.0.4):
+    - Flutter
+    - TensorFlowLite
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - tflite (from `.symlinks/plugins/tflite/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TensorFlowLite
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  tflite:
+    :path: ".symlinks/plugins/tflite/ios"
+
+SPEC CHECKSUMS:
+  camera: d56ad165545ae5a0ffb892376033760a969c68c8
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  TensorFlowLite: e81aef029750aa46b42ad16553fa4cddd81498cc
+  tflite: a6911f4ac99be9c73c1dcffb1a5d54b3c56087a8
+
+PODFILE CHECKSUM: 1e5af4103afd21ca5ead147d7b81d06f494f51a2
+
+COCOAPODS: 1.7.5
